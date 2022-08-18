@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#36CBFE, #FA9ACD);
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height:100vh;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+h1 {
+    font-weigth: normal;
+    font-size: 4rem;
+    margin-top: 4.5rem;
+    color: #fff;
+}
+
+.count-container{
+    background: #fff;
+    width: 55rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 1rem #9987ee;
+}
+
+.text{
+    font-weigth: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.count-el{
+    text-align: center;
+}
+
+.count-el span{
+    font-size: 1.5rem;
+}
